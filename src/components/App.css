@@ -9,10 +9,10 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -22,12 +22,14 @@
 }
 
 .react-tabs__tab-list {
+  /* border:1px solid pink; */
 }
 
 .react-tabs__tab {
+
   margin-right: 50px;
   color:white;
-  width:5%;
+  width:7%;
   border-radius: 100%;
   background: rgb(0, 32, 231);
   margin-top:-12.5%;
@@ -35,8 +37,8 @@
 
 .react-tabs__tab:before {
    display:inline-block;
-    padding-top:50%;
-    padding-bottom:50%;
+    padding-top:100%;
+    padding-bottom:25%;
     content:'';
     vertical-align:middle;
 }

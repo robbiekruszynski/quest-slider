@@ -5,10 +5,10 @@ import './App.css';
 export default () => (
   <Tabs>
     <TabList>
-      <Tab>Title 1</Tab>
-      <Tab>Title 2</Tab>
-      <Tab>Title 3</Tab>
-      <Tab>Title 4</Tab>
+      <Tab>1</Tab>
+      <Tab>2</Tab>
+      <Tab>3</Tab>
+      <Tab>4</Tab>
 
 
     </TabList>
